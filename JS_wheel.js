@@ -4,9 +4,9 @@ function wheel() {
     let timer = setInterval(function() {
         let timePassed = Date.now() - start;
 
-        wl.style.right = timePassed / 2.5 + 'px';
+        wl.style.right = timePassed / 21 + 'px';
 
-        if (timePassed > 3000) clearInterval(timer);
+        if (timePassed > 9000) clearInterval(timer);
 
     }, 0.1);
 }
