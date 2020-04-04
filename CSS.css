@@ -18,8 +18,8 @@
         position: fixed;
         height: 180;
         animation-name: rotation;
-        animation-duration: 3s;
-        animation-iteration-count: 3s;
+        animation-duration: 9s;
+        animation-iteration-count: 9s;
         animation-timing-function: linear;
     }
     
@@ -38,20 +38,19 @@
         position: fixed;
         height: 400;
     }
-
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items:flex-start;
-    justify-content: space-evenly;
-
-}
-.text {
-    flex: 1;
-
-}
-
-.animation {
-    flex: 1;
-}
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    
+    .text {
+        flex: 1;
+    }
+    
+    .animation {
+        flex: 1;
+    }

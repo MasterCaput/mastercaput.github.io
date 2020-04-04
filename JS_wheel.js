@@ -4,7 +4,7 @@ function wheel() {
     let timer = setInterval(function() {
         let timePassed = Date.now() - start;
 
-        wl.style.right = timePassed / 7 + 'px';
+        wl.style.right = timePassed / 2.5 + 'px';
 
         if (timePassed > 3000) clearInterval(timer);
 
